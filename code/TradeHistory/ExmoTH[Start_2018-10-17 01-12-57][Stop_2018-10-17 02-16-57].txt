@@ -1,0 +1,776 @@
+1.	
+	STEP COUNT(S)                 PRICE(S)                 COST(S)                  COST                     COUNT                    EVERAGE COST              |  MINIMAL PRICE            SALE PRICE               SALE COUNT               SALE COST                SALE EARNINGS            
+	1    0.001                    10000.0                  10.02004008016032        10.02004008016032        0.001                    10020.040080160321        |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	2    0.002                    9990.0                   20.02004008016032        30.04008016032064        0.003                    10013.360053440214        |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	3    0.004                    9970.0                   39.95991983967936        70.0                     0.007                    10000.0                   |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	4    0.008                    9940.0                   79.67935871743487        149.67935871743487       0.015                    9978.623914495658         |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	5    0.016                    9900.0                   158.7174348697395        308.39679358717433       0.031                    9948.283664102399         |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	6    0.032                    9850.0                   315.8316633266533        624.2284569138277        0.063                    9908.388204981393         |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	7    0.064                    9790.0                   627.8156312625251        1252.044088176353        0.127                    9858.614867530338         |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	8    0.128                    9720.0                   1246.6533066132265       2498.697394789579        0.255                    9798.813312900309         |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	9    0.256                    9640.0                   2472.785571142285        4971.482965931864        0.511                    9728.92948323261          |  0.0                      0.0                      0.0                      0.0                      0.0                      
+	10   0.512                    9550.0                   4899.39879759519         9870.881763527053        1.0230000000000001       9648.955780573853         |  0.0                      0.0                      0.0                      0.0                      0.0                      
+
+2.	
+	STEP COUNT(S)                 PRICE(S)                 COST(S)                  COST                     COUNT                    EVERAGE COST              |  MINIMAL PRICE            SALE PRICE               SALE COUNT               SALE COST                SALE EARNINGS            
+	1    0.001                    6688.89999999            6.702304609208417        6.702304609208417        0.001                    6702.304609208417         |  6715.736081371159        6722.45181745253         0.001                    6.709006913817625        0.006702304609207843     
+	2    0.002                    6678.89999999            13.384569138256513       20.086873747464928       0.003                    6695.624582488309         |  6709.042667823957        6715.751710491781        0.003                    20.10696062121239        0.020086873747466427     
+	3    0.004                    6658.89999999            26.688977955871742       46.77585170333667        0.007                    6682.264529048096         |  6695.655840729555        6702.351496570283        0.007                    46.82262755504           0.04677585170333032      
+	4    0.008                    6628.89999999            53.13747494981964        99.9133266531563         0.015                    6660.888443543754         |  6674.236917378511        6680.911154295889        0.015                    100.01323997980946       0.09991332665315156      
+	5    0.016                    6588.89999999            105.63366733450901       205.5469939876653        0.031                    6630.548193150494         |  6643.835864880254        6650.479700745133        0.031                    205.75254098165294       0.20554699398763887      
+	6    0.032                    6538.89999999            209.66412825619238       415.2111222438577        0.063                    6590.652734029487         |  6603.860454939366        6610.464315394305        0.063                    415.6263333661015        0.4152111222438748       
+	7    0.064                    6478.89999999            415.48056112160316       830.6916833654609        0.127                    6540.8793965784325        |  6553.9873713210745       6560.541358692394        0.127                    831.5223750488262        0.8306916833652167       
+	8    0.128                    6408.89999999            821.9831663313828        1652.6748496968435       0.255                    6481.077841948406         |  6494.065973896199        6500.5600398700935       0.255                    1654.3275245465402       1.652674849696723        
+	9    0.256                    6328.89999999            1623.4452905785972       3276.1201402754405       0.511                    6411.1940122807055        |  6424.042096473653        6430.466138570125        0.511                    3279.3962604157155       3.276120140274543        
+	10   0.512                    6238.89999999            3200.7182364678156       6476.838376743256        1.0230000000000001       6331.22030962195          |  6343.908125873698        6350.25203399957         1.0230000000000001       6483.315215119998        6.4768383767423074       
+
+3.	Initial trade (step = 0, market price = 6688.89999999)
+Time = 2018-10-17 01:12:58, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0		USD = 10000
+<BUY>
+BTC = 0.001		USD = 9993.297695390791
+
+4.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.89999999)
+Time = 2018-10-17 01:13:29, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+5.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.89999997)
+Time = 2018-10-17 01:13:59, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+6.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.89999997)
+Time = 2018-10-17 01:14:30, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+7.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.89999998)
+Time = 2018-10-17 01:15:00, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+8.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.0665554)
+Time = 2018-10-17 01:15:31, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+9.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.86655254)
+Time = 2018-10-17 01:16:02, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+10.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999999)
+Time = 2018-10-17 01:16:33, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+11.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:17:03, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+12.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:17:34, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+13.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:18:04, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+14.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:18:35, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+15.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:19:06, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+16.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:19:38, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+17.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999998)
+Time = 2018-10-17 01:20:08, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+18.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999997)
+Time = 2018-10-17 01:20:39, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+19.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.79999997)
+Time = 2018-10-17 01:21:09, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+20.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.76653102)
+Time = 2018-10-17 01:21:40, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+21.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.46653099)
+Time = 2018-10-17 01:22:10, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+22.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.73308466)
+Time = 2018-10-17 01:22:41, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+23.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.53308462)
+Time = 2018-10-17 01:23:11, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+24.	Wite... price between 1 or 2 steps (step = 1, market price = 6688.23308457)
+Time = 2018-10-17 01:23:42, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+25.	Wite... price between 1 or 2 steps (step = 1, market price = 6687.1330831)
+Time = 2018-10-17 01:24:12, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+WITE
+BTC = 0.001		USD = 9993.297695390791
+
+26.	Begin trade (step = 1, market price = 6682.16532031)
+Time = 2018-10-17 01:24:43, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.001		USD = 9993.297695390791
+<BUY>
+BTC = 0.003		USD = 9979.913126252535
+
+27.	Wite... price between 1 or 2 steps (step = 2, market price = 6682.16532031)
+Time = 2018-10-17 01:25:14, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+28.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.73190932)
+Time = 2018-10-17 01:25:45, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+29.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.33190918)
+Time = 2018-10-17 01:26:15, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+30.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.06750812)
+Time = 2018-10-17 01:26:46, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+31.	Wite... price between 1 or 2 steps (step = 2, market price = 6681.00430537)
+Time = 2018-10-17 01:27:17, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+32.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.90430526)
+Time = 2018-10-17 01:27:47, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+33.	Wite... price between 1 or 2 steps (step = 2, market price = 6681.27668235)
+Time = 2018-10-17 01:28:18, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+34.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.89999998)
+Time = 2018-10-17 01:28:48, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+35.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.89999997)
+Time = 2018-10-17 01:29:19, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+36.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.89999998)
+Time = 2018-10-17 01:29:50, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+37.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.89999997)
+Time = 2018-10-17 01:30:20, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+38.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.8999)
+Time = 2018-10-17 01:30:51, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+39.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.8999)
+Time = 2018-10-17 01:31:22, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+40.	Wite... price between 1 or 2 steps (step = 2, market price = 6680.66649548)
+Time = 2018-10-17 01:31:53, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+41.	Wite... price between 2 or 3 steps (step = 2, market price = 6678.66649527)
+Time = 2018-10-17 01:32:23, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+42.	Wite... price between 2 or 3 steps (step = 2, market price = 6677.6664)
+Time = 2018-10-17 01:32:54, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+43.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.7387)
+Time = 2018-10-17 01:33:24, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+44.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.7387)
+Time = 2018-10-17 01:33:55, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+45.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.7387)
+Time = 2018-10-17 01:34:26, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+46.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6387)
+Time = 2018-10-17 01:34:56, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+47.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6387)
+Time = 2018-10-17 01:35:27, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+48.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6387)
+Time = 2018-10-17 01:35:59, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+49.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6387)
+Time = 2018-10-17 01:36:29, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+50.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6387)
+Time = 2018-10-17 01:37:00, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+51.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6386)
+Time = 2018-10-17 01:37:31, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+52.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6386)
+Time = 2018-10-17 01:38:01, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+53.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6386)
+Time = 2018-10-17 01:38:32, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+54.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6386)
+Time = 2018-10-17 01:39:02, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+55.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6386)
+Time = 2018-10-17 01:39:33, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+56.	Wite... price between 1 or 2 steps (step = 2, market price = 6679.6386)
+Time = 2018-10-17 01:40:04, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+WITE
+BTC = 0.003		USD = 9979.913126252535
+
+57.	Begin trade (step = 2, market price = 6655.21450001)
+Time = 2018-10-17 01:40:34, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.003		USD = 9979.913126252535
+<BUY>
+BTC = 0.007		USD = 9953.224148296664
+
+58.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.63869999)
+Time = 2018-10-17 01:41:06, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+59.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.63869999)
+Time = 2018-10-17 01:41:36, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+60.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.63869999)
+Time = 2018-10-17 01:42:07, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+61.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.53889401)
+Time = 2018-10-17 01:42:37, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+62.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.63869999)
+Time = 2018-10-17 01:43:08, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+63.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.63869999)
+Time = 2018-10-17 01:43:39, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+64.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.60530072)
+Time = 2018-10-17 01:44:09, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+65.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.63859999)
+Time = 2018-10-17 01:44:40, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+66.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.60528057)
+Time = 2018-10-17 01:45:10, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+67.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.4718803)
+Time = 2018-10-17 01:45:41, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+68.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.50526141)
+Time = 2018-10-17 01:46:11, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+69.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.50525176)
+Time = 2018-10-17 01:46:42, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+70.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.60520101)
+Time = 2018-10-17 01:47:13, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+71.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.60520158)
+Time = 2018-10-17 01:47:43, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+72.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.50520047)
+Time = 2018-10-17 01:48:14, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+73.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.47188138)
+Time = 2018-10-17 01:48:44, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+74.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.47188138)
+Time = 2018-10-17 01:49:16, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+75.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.47188138)
+Time = 2018-10-17 01:49:47, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+76.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.47188138)
+Time = 2018-10-17 01:50:17, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+77.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.47188138)
+Time = 2018-10-17 01:50:48, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+78.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.7404)
+Time = 2018-10-17 01:51:19, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+79.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.7404)
+Time = 2018-10-17 01:51:49, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+80.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.74050826)
+Time = 2018-10-17 01:52:20, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+81.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.74050826)
+Time = 2018-10-17 01:52:50, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+82.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.74050826)
+Time = 2018-10-17 01:53:21, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+83.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.74050826)
+Time = 2018-10-17 01:53:53, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+84.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.74050826)
+Time = 2018-10-17 01:54:23, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+85.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.9)
+Time = 2018-10-17 01:54:54, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+86.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:55:24, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+87.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:55:55, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+88.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:56:25, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+89.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:56:56, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+90.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:57:26, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+91.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:57:57, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+92.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:58:28, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+93.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:58:58, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+94.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.89999999)
+Time = 2018-10-17 01:59:29, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+95.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 01:59:59, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+96.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:00:30, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+97.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:01:00, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+98.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:01:31, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+99.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:02:01, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+100.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:02:32, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+101.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:03:02, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+102.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:03:33, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+103.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:04:03, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+104.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:04:34, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+105.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:05:05, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+106.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:05:35, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+107.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:06:06, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+108.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:06:36, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+109.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:07:07, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+110.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:07:37, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+111.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:08:08, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+112.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:08:38, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+113.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:09:09, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+114.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:09:39, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+115.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:10:10, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+116.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:10:40, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+117.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:11:11, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+118.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:11:42, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+119.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:12:12, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+120.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:12:43, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+121.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:13:13, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+122.	Wite... price between 1 or 2 steps (step = 3, market price = 6680.0)
+Time = 2018-10-17 02:13:44, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+123.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.99999999)
+Time = 2018-10-17 02:14:14, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+124.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.99999999)
+Time = 2018-10-17 02:14:44, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+125.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.99999999)
+Time = 2018-10-17 02:15:15, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+126.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.99999999)
+Time = 2018-10-17 02:15:45, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
+127.	Wite... price between 1 or 2 steps (step = 3, market price = 6679.99999999)
+Time = 2018-10-17 02:16:16, Strategy = Straits, Traid pair =  BTC_USD;
+BTC = 0.007		USD = 9953.224148296664
+WITE
+BTC = 0.007		USD = 9953.224148296664
+
